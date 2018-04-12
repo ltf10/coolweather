@@ -22,7 +22,7 @@ public class MyApplication extends Application {
      */
     private void setupDataBase() {
         //创建数据库
-        DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this,"weather.db",null);
+        DaoMaster.DevOpenHelper helper = new DaoMaster.DevOpenHelper(this,"Weather.db",null);
         //获取可写数据库
         SQLiteDatabase db = helper.getWritableDatabase();
         //获取数据库对象
